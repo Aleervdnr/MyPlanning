@@ -1,0 +1,45 @@
+.todo_ul{
+    padding: 0;
+    text-transform: capitalize;
+}
+.todo_item{
+    list-style: none;
+    padding: 10px 0;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.close{
+    background-color: red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.agregar{
+    position: fixed;
+    bottom: 70px;
+    right: 10px;
+    background-color: blue;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 10;
+    transition: transform .5s, background-color .5s;
+}
+
+.agregar-active{
+    background-color: red;
+    transform: rotate(45deg);
+}

@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+.App{
+    background-color: rgb(212, 219, 219);
+    width: 100vw;
+    min-height: 100vh;
+    padding-top: 22px;
+    padding-bottom: 60px;
+}
+
+.padding{
+    padding: 0px 22px;
+}
+
+.title{
+    margin: 0;
+}
+
+.menu{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+}
+
+.menu_ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.menu_item{
+    list-style: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.semana, .todo{
+    padding: 0;
+    text-align: center;
+}
